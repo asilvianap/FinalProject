@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    padding-top: 56px;
+}
+.bg-maroon {
+    background-color: #62080d;
+}
+.bg-purple{
+    background-color: #800080;
+}
+section#about, section#blog, section#contact {
+    padding: 40px;
+    background-color: #79385cda;
+    color: rgb(218, 197, 154);
+}
+.title {
+    text-align: center;
+    text-shadow: 5px 3px 3px purple;
+    color: #746e51;
+    margin-bottom: 40px;
+    font-family: 'Abril Fatface', cursive;
+}
+.title2 {
+    text-align: center;
+    text-shadow: 5px 3px 3px #746e51;
+    color: purple;
+    margin-bottom: 40px;
+    font-family: 'Abril Fatface', cursive;
+}
+.subtitle {
+    text-shadow: 3px 2px 1px purple;
+    text-align: center;
+    color: #928c67;
+    font-family: 'EB Garamond', cursive;
+}
+section#about p {
+    text-align: justify;
+}
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+}
+section#portfolio {
+    background-color: #d6b9b9;
+    padding: 40px;
+}
+section#blog {
+    color: #000;
+}
+.portfolio-image {
+    width: 100%;
+}
+section#team {
+    background-color: #d6b9b9;
+    padding: 40px;
+}
+.card-center {
+    display: flex;
+    justify-content: center;
+}
+.navbar-collapse {
+    justify-content: end;
+}
+.navbar {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .carousel-caption h5{
+    background-color: #746e51;
+  }
+  
